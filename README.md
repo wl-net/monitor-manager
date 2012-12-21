@@ -1,0 +1,4 @@
+monitor-manager
+===============
+
+Manages monitors
