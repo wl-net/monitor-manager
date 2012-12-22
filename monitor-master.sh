@@ -6,7 +6,7 @@
 #######################################
 
 CONNECTED_MONITORS=0
-export DISPLAY=:0.0
+export DISPLAY=:0
 
 declare -a UWMONITORS=("7R47741L05GQ" "7R47741L05H9")
 
