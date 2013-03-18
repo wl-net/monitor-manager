@@ -18,7 +18,7 @@ containsElement () {
 }
 
 # First pass - how many monitors are connected?
-for CONNECTION in $(find /sys/class/drm/ -name 'card1-*'); do
+for CONNECTION in $(find /sys/class/drm/ -name 'card*' -type d); do
   CONN_NAME=$(echo $CONNECTION | sed 's/\/sys\/class\/drm\/card1-//')
   echo "Checking display connection: $CONN_NAME"
   
